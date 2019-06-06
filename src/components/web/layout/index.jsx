@@ -22,7 +22,7 @@ class WebLayout extends Component {
             <Sider theme="light">Sider</Sider>
           </Layout>
           <Footer style={{ textAlign: 'center' }}>
-            © 2019 <Icon type="user" /> Guodada
+            © 2019 <Icon type="user" /> lzwee
           </Footer>
         </div>
       </Layout>
