@@ -1,7 +1,7 @@
 const isDev = process.env.NODE_ENV === 'dev'
 
 const config = {
-  database: isDev ? 'blogdev' : 'react-blog',
+  database: isDev ? 'dev' : 'react-blog',
   user: isDev ? 'root' : '',
   password: isDev ? '12345678' : '',
   options: {
