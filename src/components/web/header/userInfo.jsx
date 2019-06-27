@@ -45,7 +45,7 @@ class UserInfo extends Component {
         {this.props.isLogin ? (
           <Dropdown placement="bottomCenter" overlay={this.renderAvatarDropdownMenu()}>
             <Avatar className="user-avatar" size="large" style={{ backgroundColor: this.state.avatarColor }}>
-              guodada
+              lzwee
             </Avatar>
           </Dropdown>
         ) : (
