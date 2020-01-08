@@ -1,0 +1,11 @@
+.idea/
+.vscode/
+
+dist/
+build/
+node_modules/
+
+logs/
+*.log
+/.tern-project
+/.nvmrc

@@ -3,7 +3,7 @@
 const Sequelize = require('sequelize')
 const moment = require('moment')
 
-const sequelize = new Sequelize('dev', 'root', '12345678', {
+const sequelize = new Sequelize('glog', 'root', '123456', {
   host: 'localhost', // 连接的 host 地址
   dialect: 'mysql', // 连接到 mysql
   port: 3306 // 数据库服务器端口
