@@ -2,7 +2,7 @@ const isDev = process.env.NODE_ENV === 'dev'
 
 const config = {
   database: 'blog',
-  user: 'root'
+  user: 'root',
   password: '123456',
   options: {
     host: isDev ? 'localhost' : '', // 连接的 host 地址
