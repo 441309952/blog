@@ -3,7 +3,7 @@ import { message } from 'antd'
 // import NProgress from 'nprogress'
 
 const instance = axios.create({
-  baseURL: 'http://lzwee.com/api',
+  baseURL: 'http://lzwee.com:334',
   timeout: 20000 // 请求超时时间
 })
 
